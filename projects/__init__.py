@@ -1,0 +1,2 @@
+"""Portfolio-grade GNC projects."""
+
