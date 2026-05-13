@@ -37,6 +37,30 @@ After running `python scripts\run_all.py`, you should see metrics similar to:
 
 Small numerical differences are normal across Python and NumPy versions.
 
+## Results Snapshot
+
+| Project | Metric | Result |
+| --- | --- | ---: |
+| Attitude Control | Final attitude error | `0.5032 deg` |
+| Attitude Control | Final body-rate norm | `0.00361 rad/s` |
+| EKF Sensor Fusion | Position RMSE | `0.6911 m` |
+| Embedded PID | Final tracking error | `0.0494 units` |
+| Embedded PID | Overshoot | `2.9259 units` |
+
+## Visual Results
+
+### Attitude Control
+
+![Attitude error response](docs/images/attitude_error.png)
+
+### EKF Sensor Fusion
+
+![EKF trajectory estimate](docs/images/ekf_trajectory.png)
+
+### Embedded PID Control
+
+![PID closed-loop response](docs/images/pid_response.png)
+
 ## Project Layout
 
 ```text

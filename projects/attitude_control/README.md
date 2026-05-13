@@ -42,6 +42,12 @@ Outputs:
 - `results/attitude/body_rates.png`
 - `results/attitude/control_torque.png`
 
+## Example Results
+
+![Attitude error response](../../docs/images/attitude_error.png)
+
+![Body-rate response](../../docs/images/body_rates.png)
+
 ## Tuning
 
 Start with higher derivative gain if the vehicle oscillates. Increase proportional gain when response is too slow. Reduce torque limits if you want to model weaker actuators.

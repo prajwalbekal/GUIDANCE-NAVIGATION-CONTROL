@@ -61,6 +61,12 @@ Outputs:
 - `results/embedded_pid/pid_response.png`
 - `results/embedded_pid/pid_control.png`
 
+## Example Results
+
+![PID closed-loop response](../../docs/images/pid_response.png)
+
+![PID control effort and disturbance](../../docs/images/pid_control.png)
+
 ## Tuning Procedure
 
 1. Set `Ki = 0` and `Kd = 0`.

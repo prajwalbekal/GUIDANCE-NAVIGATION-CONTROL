@@ -33,6 +33,12 @@ Outputs:
 - `results/ekf/position_error.png`
 - `results/ekf/yaw_error.png`
 
+## Example Results
+
+![EKF trajectory estimate](../../docs/images/ekf_trajectory.png)
+
+![EKF position error](../../docs/images/ekf_position_error.png)
+
 ## Tuning
 
 Increase process noise if the filter is slow to adapt. Increase measurement noise if GPS updates are causing jumps. A good EKF should beat raw GPS position noise while avoiding IMU-only drift.
